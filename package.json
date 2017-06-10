@@ -12,5 +12,6 @@
   },
   "scripts": {
     "build": "browserify main.js | indexhtmlify > geoswarm.html"
-  }
+  },
+  "license": "public domain"
 }
