@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "choo": "^5.6.1",
+    "end-of-stream": "^1.4.0",
+    "randombytes": "^2.0.5",
+    "signalhub": "^4.8.0",
+    "split2": "^2.1.1",
+    "to2": "^1.0.0",
+    "webrtc-swarm": "^2.8.0"
+  },
+  "scripts": {
+    "build": "browserify main.js | indexhtmlify > geoswarm.html"
+  }
+}
